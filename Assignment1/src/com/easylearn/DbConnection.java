@@ -29,10 +29,11 @@ public class DbConnection {
 		try{
 			
 		Class.forName("com.mysql.jdbc.Driver");
+
 		 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Manaswee","root", "admin");
 		
 	     st = con.createStatement();
-		
+		//executing query
 		 rs= st.executeQuery("SELECT * FROM medical_record");
 		 
 		 ResultSetMetaData rs1 =rs.getMetaData();
