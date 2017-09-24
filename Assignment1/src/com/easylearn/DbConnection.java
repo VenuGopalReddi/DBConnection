@@ -11,7 +11,7 @@ import java.sql.Statement;
  */
 
 /**
- * @author manaswee
+ * @author venu
  *
  */
 public class DbConnection {
